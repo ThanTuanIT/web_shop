@@ -1,0 +1,6 @@
+<div class="item" *ngFor="let item of products">
+  <img [src]="item.image" alt="" />
+  <h1>{{ item.name }}</h1>
+  <h2>{{ item.price }}</h2>
+  <button (click)="addToCart(item)">Buy</button>
+</div>

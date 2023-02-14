@@ -1,0 +1,6 @@
+<div class="item" *ngFor="let item of items">
+    <img [src]="item.image" alt="" />
+    <h1>{{ item.name }}</h1>
+    <h2>{{ item.price }}</h2>
+    <app-counter [quantity]="1"></app-counter>
+  </div>

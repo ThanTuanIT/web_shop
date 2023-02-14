@@ -1,0 +1,12 @@
+.header {
+    height: 60px;
+    background-color: #ccc;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 20px;
+}
